@@ -3,6 +3,7 @@ import Topbar from "./Topbar";
 import Stories from "./Stories";
 import Posts from "./Posts";
 import Sidebar from "./Sidebar";
+import Mobile from "./Mobile";
 
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
         </div>
         <Sidebar />
         </div>
+        <Mobile />
         </>
     )
 };

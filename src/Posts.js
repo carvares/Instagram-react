@@ -3,6 +3,9 @@ import RenderImg from "./RenderImg";
 
 function RenderPosts(props){
     return(
+      <div class="posts">
+            
+          
         <div class="post">
               <div class="topo">
                 <div class="usuario">
@@ -37,6 +40,7 @@ function RenderPosts(props){
                   </div>
                 </div>
               </div>
+            </div>
             </div>
     )
 };
